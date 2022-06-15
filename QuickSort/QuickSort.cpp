@@ -1,5 +1,6 @@
 #include <iostream>
 #include <vector>
+#include "QuickSort.h"
 
 int partition(std::vector<int>& vec, int low, int high)
 {

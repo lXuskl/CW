@@ -1,4 +1,4 @@
-name: RK2_test
+name: CW_test
 on:
   push:
   
@@ -34,7 +34,7 @@ jobs:
           cmake --build .
           ./RunTest
           lcov -t "QuickSort" -o lcov.info -c -d .
-          lcov --remove lcov.info '/home/runner/work/RK2/RK2/third-party/gtest/*' -o lcov.info
+          lcov --remove lcov.info '$(pwd)/third-party/gtest/*' -o lcov.info
           lcov --remove lcov.info '/usr/include/*' -o lcov.info
   
   CovTest:
@@ -56,7 +56,7 @@ jobs:
           cmake --build .
           ./RunTest
           lcov -t "QuickSort" -o lcov.info -c -d .
-          lcov --remove lcov.info '/home/runner/work/RK2/RK2/third-party/gtest/*' -o lcov.info ###
+          lcov --remove lcov.info '$(pwd)/third-party/gtest/*' -o lcov.info ###
           lcov --remove lcov.info '/usr/include/*' -o lcov.info
           
       - name: CovBeg
