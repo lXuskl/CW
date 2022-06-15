@@ -6,4 +6,4 @@
 
 [![Coverage Status](https://coveralls.io/repos/github/lXuskl/CW/badge.svg?branch=main)](https://coveralls.io/github/lXuskl/CW?branch=main)
 
-![Иллюстрация к Coveralls](https://github.com/lXuskl/CW/Coveralls.png)
+![Иллюстрация к Coveralls](https://github.com/lXuskl/CW/blob/main/Coveralls.png)
