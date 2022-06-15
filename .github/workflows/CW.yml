@@ -34,7 +34,7 @@ jobs:
           cmake --build .
           ./RunTest
           lcov -t "QuickSort" -o lcov.info -c -d .
-          lcov --remove lcov.info '$(pwd)/third-party/gtest/*' -o lcov.info
+          lcov --remove lcov.info '/home/runner/work/CW/CW/third-party/gtest/*' -o lcov.info
           lcov --remove lcov.info '/usr/include/*' -o lcov.info
   
   CovTest:
@@ -56,7 +56,7 @@ jobs:
           cmake --build .
           ./RunTest
           lcov -t "QuickSort" -o lcov.info -c -d .
-          lcov --remove lcov.info '$(pwd)/third-party/gtest/*' -o lcov.info ###
+          lcov --remove lcov.info '/home/runner/work/CW/CW/third-party/gtest/*' -o lcov.info ###
           lcov --remove lcov.info '/usr/include/*' -o lcov.info
           
       - name: CovBeg
