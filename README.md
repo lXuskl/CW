@@ -1,3 +1,3 @@
 # RK2
 
-[![Coverage Status](https://coveralls.io/repos/github/lXuskl/RK2/badge.svg?branch=master)](https://coveralls.io/github/lXuskl/RK2?branch=master)
+[![Coverage Status](https://coveralls.io/repos/github/lXuskl/CW/badge.svg?branch=main)](https://coveralls.io/github/lXuskl/CW?branch=main)
